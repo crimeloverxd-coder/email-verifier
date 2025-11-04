@@ -1,0 +1,19 @@
+# Email Verifier Application Requirements
+# Python packages required for email verification
+
+# DNS resolution for MX record lookup
+dnspython>=2.3.0
+
+# Email validation and regex support (built-in modules)
+# re - built-in
+# socket - built-in  
+# smtplib - built-in
+# json - built-in
+# sys - built-in
+# typing - built-in (Python 3.5+)
+
+# Optional: For enhanced email validation
+email-validator>=2.0.0
+
+# Optional: For better disposable email detection
+disposable-email-domains>=0.0.95
